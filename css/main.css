@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.air ,.home , .about ,.contact ,.welcome ,
+.s1 .pargraph {
+    position:absolute;
+}
+.air , .home {
+    top: 0;
+}
+.air , .w , .home , .s2 p:first-of-type, .s3>p , footer p span {
+    color:rgba(252, 135, 26, 0.952);
+}
+.air , .welcome , .s2 p:first-of-type, .s3>p , footer p {
+    font-style: italic;
+}
+.air {
+    left: 120px;
+}
+.home {
+    right: 250px;
+}
+.about , .contact {
+    top: 15px;
+    color: black;
+    text-decoration: none;
+}
+.about {
+    right: 200px;
+}
+.contact {
+    right: 140px;
+}
+.s1 {
+    height: 100vh ;
+    background-image: url(../photos/19866.jpg);
+    margin-top: 50px;
+    cursor: pointer;
+}
+.welcome , .s1 .pargraph , footer {
+    color: white;
+}
+.welcome{
+    top: 200px;
+    left: 150px;
+    font-size: 30px;
+}
+.s1 .pargraph {
+    top: 300px;
+    left: 250px;
+    width: 400px; 
+}
+.s2 , .s3 {
+    text-align: center;
+}
+.s2 {
+    height: 60vh;
+}
+.s2 p:first-of-type {
+    margin-bottom: 0;
+}
+.s2 p:first-of-type,
+.s3>p {
+    font-family: sans-serif ;
+    font-size: 18px;
+}
+.s2 p:nth-of-type(2) {
+    margin: 0;
+}
+.span1 , .span2 , .span3 {
+    display: inline-block;
+    width: 850px ;
+    height: 100px;
+}
+.span1 {
+    border-radius: 15px;
+    background: linear-gradient(rgba(255, 255, 255, 0.918) ,rgba(255, 255, 255, 0.747) , rgba(243, 210, 172, 0.747) ,rgba(248, 175, 107, 0.918) , rgba(250, 164, 83, 0.952),rgba(252, 135, 26, 0.952) );
+}
+.span2{
+    border-radius: 15px 0px;
+    background: radial-gradient(rgba(255, 255, 255, 0.918) ,rgba(255, 255, 255, 0.747) , rgba(243, 210, 172, 0.747) ,rgba(248, 175, 107, 0.918) , rgba(250, 164, 83, 0.952),rgba(252, 135, 26, 0.952) );
+}
+.span3 {
+    border-radius: 0 20px;
+    background: conic-gradient(rgba(255, 255, 255, 0.918) ,rgba(255, 255, 255, 0.747) , rgba(238, 190, 134, 0.747) ,rgba(248, 175, 107, 0.918) , rgba(250, 164, 83, 0.952),rgba(252, 135, 26, 0.952) );
+}
+.s3 {
+    height: 30vh;
+}
+img {
+    width: calc(850PX/3);
+    box-shadow: 0px 3px 10px 0px #a7a6a6;
+}
+img:first-of-type {
+    filter: grayscale(2);
+}
+img:nth-of-type(2) {
+    filter: blur(1.5px);
+}
+img:nth-of-type(3) {
+    filter: brightness(1.5);
+}
+
+footer {
+    width: 850px;
+    height: 25px;
+    background-color: black;
+    border-radius: 12.5px;
+    display: inline-block;
+}
+footer p {
+    margin: 0;
+}
